@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400&display=swap');
+
+header {
+    background-color: #2e2759b2;
+    width: 98%;
+    height: 95px;
+    border: 5px solid #8d73e2;
+    border-radius: 10px;
+    z-index: 999;
+    padding:0;
+    vertical-align: middle;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+
+header ul li img {
+    width: 60px;
+    float: left;
+    filter:invert(1);
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+header ul li a {
+    width: 100px;
+    color: #a3e0fc;
+    font-size: 17px;
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    float: right;
+    transition: all 0.2s;
+    padding: 6px 0 5px 0;
+    margin-top: -5px;
+    margin-right: 3px;
+}
+
+header ul li a:hover {
+    background-color: #456ABC;
+    color: white;
+}
